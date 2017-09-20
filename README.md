@@ -43,7 +43,25 @@ angle.csv 数据集。
 ### 实验结果
 sigmoid激活函数+20层全连接神经网络：
 Epoch 200/200
-6000/6000 [==============================] - 0s - loss: 0.6932 - acc: 0.5033 - val_loss: 0.6932 - val_acc: 0.4950
+6000/6000 - loss: 0.6932 - acc: 0.5033 - val_loss: 0.6932 - val_acc: 0.4950
+
+sigmoid激活函数+20层全连接神经网络 + resnet直连结构：
+Epoch 200/200
+6000/6000  - loss: 0.4864 - acc: 0.8128 - val_loss: 0.5081 - val_acc: 0.8005
+
+relu激活函数+20层全连接神经网络：
+Epoch 200/200
+6000/6000 - loss: 0.6931 - acc: 0.5033 - val_loss: 0.6932 - val_acc: 0.4950
+
+relu激活函数+20层全连接神经网络 + resnet直连结构：
+Epoch 200/200
+6000/6000  - loss: 0.1484 - acc: 0.9500 - val_loss: 0.1633 - val_acc: 0.9453
+
+结论：
+
+（1）20层全连接网络，无论是sigmoid还是relu激活函数，模型没有得到有效训练，梯度消失了
+
+（2）添加resnet直连结构的20层全连接网络，仍然能够有效训练，准确度确实有较大提高
 
 ### 参考：
 https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650729930&idx=1&sn=5f81864de64075de1a460e622baea239&chksm=871b29b4b06ca0a23e2bef560abf09dad1b7d48d7b657cb2cd47f59573638be74278013ea913#rd
