@@ -34,7 +34,7 @@ keras theano
 数据集angle.csv：简单的分类问题：通过三条边的长度判断是否是直接三角形，是标签为1，否则为0。数据集共10000条数据，其中5000个为直角三角形。
 
 ### 网络结构对比
-原始20层全连接网络                                                                                      增加resnet的全连接网络
+原始20层全连接网络                                                                                              增加resnet的全连接网络
 ![github](https://github.com/junliangliu/resnet-test/blob/master/%E7%BB%93%E6%9E%84%E5%AF%B9%E6%AF%94%E5%9B%BE.png "对比")
 
 ### 代码结构
