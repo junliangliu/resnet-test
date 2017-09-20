@@ -43,22 +43,22 @@ restnet-test.ipynb restnet对比测试脚本。
 angle.csv 数据集。
 
 ### 实验结果
-sigmoid激活函数+20层全连接神经网络：
+（1）sigmoid激活函数+20层全连接神经网络：
 
 Epoch 200/200
 6000/6000 - loss: 0.6932 - acc: 0.5033 - val_loss: 0.6932 - val_acc: 0.4950
 
-sigmoid激活函数+20层全连接神经网络 + resnet直连结构：
+（2）sigmoid激活函数+20层全连接神经网络 + resnet直连结构：
 
 Epoch 200/200
 6000/6000  - loss: 0.4864 - acc: 0.8128 - val_loss: 0.5081 - val_acc: 0.8005
 
-relu激活函数+20层全连接神经网络：
+（3）relu激活函数+20层全连接神经网络：
 
 Epoch 200/200
 6000/6000 - loss: 0.6931 - acc: 0.5033 - val_loss: 0.6932 - val_acc: 0.4950
 
-relu激活函数+20层全连接神经网络 + resnet直连结构：
+（4）relu激活函数+20层全连接神经网络 + resnet直连结构：
 
 Epoch 200/200
 6000/6000  - loss: 0.1484 - acc: 0.9500 - val_loss: 0.1633 - val_acc: 0.9453
